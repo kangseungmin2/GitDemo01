@@ -2,10 +2,10 @@ package test;
 
 public class Test1 {
 	public static void main(String[] args) {
-		String name = "유재석";
+		String name = "�쑀�옱�꽍";
 		int score = 75; 
 		char grade = ' ';
-		String branch_name = "BrahcnX";
+		String branch_name = "Brahcnj";
 		  
 		if ((score>=90)&&(score<=100)) {
 			grade = 'A';
@@ -23,10 +23,10 @@ public class Test1 {
 			grade = 'F';
 		}
 		else { 
-			System.out.println("잘못된 점수입니다.");
+			System.out.println("�옒紐삳맂 �젏�닔�엯�땲�떎.");
 		}
 		  
-		System.out.println("이름"+name +"\t점수 : "+score+"\t학점 : "+grade );
-		System.out.println("branch명 : " + branch_name);
+		System.out.println("�씠由�"+name +"\t�젏�닔 : "+score+"\t�븰�젏 : "+grade );
+		System.out.println("branch紐� : " + branch_name);
 	}
 }
